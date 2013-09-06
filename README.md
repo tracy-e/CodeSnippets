@@ -1,4 +1,4 @@
 CodeSnippets
 ============
 
-My Xcode Code Snippets
+My Xcode Code Snippets(~/Library/Developer/Xcode/UserData/CodeSnippets/)
