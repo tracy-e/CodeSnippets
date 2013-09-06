@@ -3,24 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>nsl</string>
+	<string>ano</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSLocalizedString(&lt;#key#&gt;, &lt;#comment#&gt;)</string>
+	<string>[[NSNotificationCenter defaultCenter] addObserver:&lt;#(id)#&gt;
+                                             selector:&lt;#(SEL)#&gt;
+                                                 name:&lt;#(NSString *)#&gt;
+                                               object:&lt;#(id)#&gt;];
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>07703ACC-AFB2-4A79-B230-7B782082B415</string>
+	<string>F4E93F8F-6D28-407C-9126-1386590DAFD8</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>NSLocalizedString(key, comment)</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>NSLocalizedString</string>
+	<string>Add Notification Observer</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

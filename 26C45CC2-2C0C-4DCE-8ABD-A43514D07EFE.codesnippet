@@ -10,7 +10,8 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>#pragma mark - UITableViewDataSource Methods
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
     return &lt;#number#&gt;;
 }
 
@@ -40,8 +41,10 @@
 	<string>26C45CC2-2C0C-4DCE-8ABD-A43514D07EFE</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UITableView DataSource Methods</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>UITableView Required DataSource</string>
+	<string>UITableView DataSource Methods</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
