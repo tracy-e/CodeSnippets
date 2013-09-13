@@ -3,24 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>fl</string>
+	<string>isMainThread</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSLog(@"%s\t%d", __FUNCTION__, __LINE__);</string>
+	<string>NSLog(@"【Current is %@Main Thread】", [NSThread isMainThread] ? @"" : @"NOT ");</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4123E14D-400D-4564-9336-83963915CC9D</string>
+	<string>7909FE48-825E-4A90-8D0C-F175B362A7DF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>print function &amp; line</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Function &amp; line</string>
+	<string>Print is Thread Main Thread</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
