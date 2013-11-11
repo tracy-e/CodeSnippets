@@ -3,21 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mark</string>
+	<string>rud</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - &lt;#Section#&gt;</string>
+	<string>[[NSUserDefaults standardUserDefaults] removeObjectForKey:&lt;#(NSString *)#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5CE47673-C0FB-4083-8F18-84CBB984E558</string>
+	<string>51FEEC36-22C9-4861-83B1-F309F6C1227B</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>#pragma mark -</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>pragma mark</string>
+	<string>Remove UserDefaults Value</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

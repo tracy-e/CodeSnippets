@@ -3,24 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mark</string>
+	<string>uds</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - &lt;#Section#&gt;</string>
+	<string>[[NSUserDefaults standardUserDefaults] synchronize];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5CE47673-C0FB-4083-8F18-84CBB984E558</string>
+	<string>712F0CF9-665A-4AEB-82FB-22C71BF30841</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>#pragma mark -</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>pragma mark</string>
+	<string>UserDefaults Value Synchronize</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
