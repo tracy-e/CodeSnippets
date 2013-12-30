@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sud</string>
+	<string>strongself</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[[NSUserDefaults standardUserDefaults] setObject:&lt;#(id)#&gt; forKey:&lt;#(NSString *)#&gt;];</string>
+	<string>__strong __typeof(weakSelf) strongSelf = weakSelf;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>97772024-E056-45A4-8146-44C72A92CDFC</string>
+	<string>F4BD920D-D0EA-4EC6-B1CA-51994757B432</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Set UserDefaults Value</string>
+	<string>Strong Self</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

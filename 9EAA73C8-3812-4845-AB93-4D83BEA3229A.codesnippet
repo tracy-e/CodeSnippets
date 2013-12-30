@@ -3,19 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sud</string>
+	<string>tableView.dealloc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[[NSUserDefaults standardUserDefaults] setObject:&lt;#(id)#&gt; forKey:&lt;#(NSString *)#&gt;];</string>
+	<string>&lt;#_tableView#&gt;.delegate = nil;
+&lt;#_tableView#&gt;.dataSource = nil;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>97772024-E056-45A4-8146-44C72A92CDFC</string>
+	<string>9EAA73C8-3812-4845-AB93-4D83BEA3229A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Set UserDefaults Value</string>
+	<string>TableView Dealloc</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

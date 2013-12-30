@@ -9,7 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - UITableViewDataSource Methods
+	<string>#pragma mark - UITableViewDataSource &amp; UITableViewDelegate Methods
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     return &lt;#number#&gt;;

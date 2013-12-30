@@ -3,19 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sud</string>
+	<string>tableView.init</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[[NSUserDefaults standardUserDefaults] setObject:&lt;#(id)#&gt; forKey:&lt;#(NSString *)#&gt;];</string>
+	<string>&lt;#_tableView#&gt; = [[UITableView alloc] initWithFrame:CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;)];
+    &lt;#_tableView#&gt;.delegate = self;
+    &lt;#_tableView#&gt;.dataSource = self;
+    self.view = &lt;#_tableView#&gt;;
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>97772024-E056-45A4-8146-44C72A92CDFC</string>
+	<string>246929A3-4961-4AC6-A0AB-A67B4B93C907</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Set UserDefaults Value</string>
+	<string>TableView Init</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
